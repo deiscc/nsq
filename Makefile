@@ -6,9 +6,9 @@ BUILD_TAG ?= git-$(shell git rev-parse --short HEAD)
 SHORT_NAME ?= nsq
 DEPLOYMENT_NAME ?= nsqd
 DEIS_REGISTRY ?= ${DEV_REGISTRY}
-IMAGE_PREFIX ?= deis
+IMAGE_PREFIX ?= deiscc
 
-TEST_ENV_PREFIX := docker run --rm -v ${CURDIR}:/bash -w /bash quay.io/deis/shell-dev
+TEST_ENV_PREFIX := docker run --rm -v ${CURDIR}:/bash -w /bash deiscc/shell-dev
 SHELL_SCRIPTS = $(wildcard rootfs/opt/nsq/bin/*)
 
 include versioning.mk
