@@ -4,4 +4,4 @@ version: <Will be populated by the ci before publishing the chart>
 description: A kubernetes based docker image for running nsq daemon.
 maintainers:
   - name: Team Hephy
-    email: team@deiscc.com
+    email: team@deis.cc
