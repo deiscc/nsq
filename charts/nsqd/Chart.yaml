@@ -3,5 +3,5 @@ home: https://github.com/deiscc/nsq
 version: <Will be populated by the ci before publishing the chart>
 description: A kubernetes based docker image for running nsq daemon.
 maintainers:
-  - name: Team Hephy
-    email: team@deis.cc
+  - name: deiscc
+    email: engineering@deis.cc
